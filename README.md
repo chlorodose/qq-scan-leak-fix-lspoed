@@ -1,5 +1,7 @@
 # QQ 扫码闪退修复 1.1
 
+> Made with gpt-sol-6.1
+
 针对特定 QQ 扫码后闪退的 legacy Xposed 兼容模块，包名 `local.lilith.qqscanfix`，当前版本 1.1。
 它通过现有的 Zygisk → Vector 加载，产物是 APK，不是独立的原生 Zygisk ZIP。
 

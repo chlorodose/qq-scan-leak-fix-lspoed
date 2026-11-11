@@ -1,0 +1,10 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="local.lilith.qqscanfix" android:versionCode="2" android:versionName="1.1">
+    <uses-sdk android:minSdkVersion="27" android:targetSdkVersion="35" />
+    <application android:label="QQ 扫码闪退修复" android:allowBackup="false" android:hasCode="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="仅豁免 QQScanActivity 广播接收器泄漏的 StrictMode 致命路径；无需存储或网络权限。" />
+        <meta-data android:name="xposedminversion" android:value="82" />
+        <meta-data android:name="xposedscope" android:resource="@array/xposed_scope" />
+    </application>
+</manifest>

@@ -1,0 +1,7 @@
+/toolchain/
+/build/
+/signing.p12
+*.apk
+*.log
+__pycache__/
+*.pyc
